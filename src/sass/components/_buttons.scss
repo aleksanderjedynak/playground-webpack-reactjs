@@ -1,0 +1,16 @@
+$base__font-family: Helvetica, Arial, sans-serif;
+$button__text-color: rgb(255, 255, 255);
+$button__background-color: rgb(55, 121, 61);
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: $button__background-color;
+
+    cursor: pointer;
+
+    font-family: $base__font-family;
+    font-size: 16px;
+    color: $button__text-color;
+}
